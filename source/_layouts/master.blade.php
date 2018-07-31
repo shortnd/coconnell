@@ -6,7 +6,7 @@
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <link rel="stylesheet" href="{{ mix('/css/main.css') }}">
     </head>
-    <body>
+    <body class="relative antialiased">
         @yield('body')
     </body>
 </html>
