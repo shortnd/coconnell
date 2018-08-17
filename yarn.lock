@@ -4541,9 +4541,9 @@ kind-of@^6.0.0, kind-of@^6.0.2:
   version "6.0.2"
   resolved "https://registry.yarnpkg.com/kind-of/-/kind-of-6.0.2.tgz#01146b36a6218e64e58f3a8d66de5d7fc6f6d051"
 
-laravel-mix-purgecss@^2.2.0:
-  version "2.2.2"
-  resolved "https://registry.yarnpkg.com/laravel-mix-purgecss/-/laravel-mix-purgecss-2.2.2.tgz#2a72fa9c68b978b83576498a3c7a0ca91dc60755"
+laravel-mix-purgecss@^2.2.2:
+  version "2.2.3"
+  resolved "https://registry.yarnpkg.com/laravel-mix-purgecss/-/laravel-mix-purgecss-2.2.3.tgz#231ca9aff43b43779f338da8ea1713e9905d018d"
   dependencies:
     glob-all "^3.1.0"
     purgecss-webpack-plugin "^0.23.0"
