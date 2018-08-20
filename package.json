@@ -1,7 +1,7 @@
 {
-  "name": "coconnell.me",
+  "name": "coconnell.me-site",
   "version": "1.0.0",
-  "description": "My new personal site",
+  "description": "coconnell.me site",
   "author": "Collin O",
   "private": true,
   "scripts": {
@@ -13,13 +13,22 @@
     "precommit": "npm run lint"
   },
   "dependencies": {
-    "nuxt": "^1.0.0"
+    "nuxt": "^1.4.2",
+    "tailwindcss": "^0.6.5"
   },
   "devDependencies": {
-    "babel-eslint": "^8.2.1",
-    "eslint": "^4.15.0",
-    "eslint-friendly-formatter": "^3.0.0",
-    "eslint-loader": "^1.7.1",
-    "eslint-plugin-vue": "^4.0.0"
+    "autoprefixer": "^9.1.1",
+    "babel-eslint": "^8.2.6",
+    "cssnano": "^4.0.5",
+    "eslint": "^5.3.0",
+    "eslint-friendly-formatter": "^4.0.1",
+    "eslint-loader": "^2.1.0",
+    "eslint-plugin-vue": "^4.7.1",
+    "glob-all": "^3.1.0",
+    "postcss-import": "^12.0.0",
+    "postcss-loader": "^3.0.0",
+    "postcss-preset-env": "^5.3.0",
+    "postcss-url": "^8.0.0",
+    "purgecss-webpack-plugin": "^0.23.0"
   }
 }
