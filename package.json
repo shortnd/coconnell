@@ -1,8 +1,8 @@
 {
-  "name": "coconnell.me-site",
+  "name": "coconnell.me",
   "version": "1.0.0",
-  "description": "coconnell.me site",
-  "author": "Collin O",
+  "description": "coconnell.me",
+  "author": "",
   "private": true,
   "scripts": {
     "dev": "nuxt",

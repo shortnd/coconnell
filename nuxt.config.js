@@ -13,7 +13,7 @@ module.exports = {
   ** Headers of the page
   */
   head: {
-    titleTemplate: "Collin O'Connell",
+    titleTemplate: 'Collin O\'Connell',
     htmlAttrs: { lang: 'en' },
     meta: [
       { charset: 'utf-8' },
