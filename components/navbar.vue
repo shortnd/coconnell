@@ -1,18 +1,20 @@
 <template lang="html">
-  <header class="clearfix shadow bg-white">
-    <nuxt-link class="text-dark text-lg block" to="/">
-      Collin O
-    </nuxt-link>
-    <nav class="float-right">
-      <ul>
-        <li class="inline-block">
-          <nuxt-link class="block px-3 py-3" to="#">Blog</nuxt-link>
+  <header>
+    <div class="text-center mt-4">
+      <nuxt-link class="no-underline text-black" to="/">
+        <h1 class="font-normal text-5xl">Collin O'Connell</h1>
+      </nuxt-link>
+    </div>
+    <nav class="mb-6">
+      <ul class="list-reset flex justify-center items-center">
+        <li>
+          <nuxt-link class="block p-6 text-2xl" to="/projects">Projects</nuxt-link>
         </li>
-        <li class="inline-block">
-          <nuxt-link class="block px-3 py-3" to="#">Projects</nuxt-link>
+        <li>
+          <nuxt-link class="block p-6 text-2xl" to="/about">About</nuxt-link>
         </li>
-        <li class="inline-block">
-          <nuxt-link class="block px-3 py-3" to="#">Contact</nuxt-link>
+        <li>
+          <nuxt-link class="block p-6 text-2xl" to="/contact">Contact</nuxt-link>
         </li>
       </ul>
     </nav>
@@ -23,6 +25,3 @@
 export default {
 }
 </script>
-
-<style lang="css">
-</style>

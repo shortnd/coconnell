@@ -1,5 +1,5 @@
 <template>
-  <div class="min-h-full">
+  <div class="min-h-full container mx-auto">
     <navbar></navbar>
     <nuxt/>
   </div>
